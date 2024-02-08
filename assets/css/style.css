@@ -1,0 +1,114 @@
+/*Geral*/
+body{
+    margin: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+/*Menu*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.icon{
+    border-radius: 50%;
+    height: 25px;
+    width: auto;
+}
+
+
+/*Botões*/
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+
+}
+.button1{
+    padding: 15px;
+}
+.button2{
+    padding-top: 3px;
+}
+.button2:hover{
+    border-radius: 100%;
+    border: none;
+    background-color:#e9e9e9;
+}
+
+.button3{
+    padding-top: 4px;
+}
+.button3:hover{
+    border-radius: 100%;
+    border: none;
+    background-color: #e9e9e9;
+}
+
+/*Caixa Pesquisa*/
+.search-container{
+    background-color: #e9e9e9;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+input{
+    border-radius: 30px;
+    margin-left: 2px;
+    border: none;
+    background-color: #e9e9e900;
+    width: 800px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#lupa{
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+
+/*Imagens*/
+div.gallery {
+    margin: 8px;
+    width: 230px;
+  }
+
+div.gallery img{
+    border-radius: 12px;  
+    width: 100%;
+    height: auto;
+}
+div.gallery img:hover{
+    cursor: pointer;
+}
+
+div.desc{
+ 
+    padding: 2px;
+    padding-bottom: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+.flex-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Página inicial*/
+#inicial{
+    background-color: black;
+    color: white;
+}
